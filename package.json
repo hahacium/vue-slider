@@ -1,0 +1,50 @@
+{
+  "name": "@jeremyhamm/vue-slider",
+  "version": "0.1.16",
+  "private": false,
+  "author": {
+    "name": "Jeremy Hamm",
+    "email": "jeremy@jeremyhamm.dev"
+  },
+  "description": "A horizontal slide menu for Vue JS 2+",
+  "keywords": [
+    "vue",
+    "vuejs",
+    "vue-component",
+    "component",
+    "slider"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/jeremyhamm/vue-slider",
+  "bugs": {
+    "url": "https://github.com/jeremyhamm/vue-slider/issues"
+  },
+  "main": "dist/vue-slider.common.js",
+  "unpkg": "dist/vue-slider.umd.min.js",
+  "files": [
+    "dist/*"
+  ],
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build --target lib --name vue-slider ./src/components/Slider.vue",
+    "lint": "vue-cli-service lint",
+    "test:unit": "vue-cli-service test:unit"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.0.5",
+    "@vue/cli-plugin-eslint": "^4.0.5",
+    "@vue/cli-plugin-unit-mocha": "^4.0.5",
+    "@vue/cli-service": "^4.0.5",
+    "@vue/eslint-config-standard": "^4.0.0",
+    "@vue/test-utils": "1.0.0-beta.29",
+    "babel-eslint": "^10.0.3",
+    "chai": "^4.2.0",
+    "eslint": "^6.6.0",
+    "eslint-plugin-vue": "^5.2.3",
+    "sass": "^1.23.2",
+    "sass-loader": "^8.0.0",
+    "vue": "^2.6.10",
+    "vue-template-compiler": "^2.6.10"
+  }
+}
