@@ -3,23 +3,23 @@
 
 ***
 
-## Installation
+## 安装
 
 ##### NPM
 ```
   npm i @jeremyhamm/vue-slider
 ```
 
-#### Browser
+#### 标签
 ```html
 <script src="https://unpkg.com/@jeremyhamm/vue-slider"></script>
 ```
 
 ***
 
-## Useage
+## 使用
 
-#### Mount with global
+#### 全局安装
  ```javascript
 import Vue from 'vue'
 import Slider from '@jeremyhamm/vue-slider'
@@ -27,7 +27,7 @@ import Slider from '@jeremyhamm/vue-slider'
 Vue.use(Slider)
 ```
 
-#### Mount with component
+#### 组件安装
 ```javascript
 
 import Slider from '@jeremyhamm/vue-slider'
@@ -39,12 +39,12 @@ export default {
 }
 ```
 
-#### Use in component
+#### 标签使用方法
 ```html
  <slider :width="300" format="push" direction="left" :opacity="0.15" :links="[{'id': 1, 'text': 'Link 1', 'url': 'https://github.com'}, {'id': 2, 'text': 'Link 2', 'url': 'https://github.com'}]"></slider>
 ```
 
-#### Properties
+#### 属性
 | Name      | Type     | Default   | Options                |
 | ---       |---       | ---       | ---                    |
 | width     | `Number` | `300`     | Menu Width `(px)`      |
@@ -53,5 +53,5 @@ export default {
 | opacity   | `Number` | `0`       | `0.00 - 1.00` Representing [css opacity](https://developer.mozilla.org/en-US/docs/Web/CSS/opacity)        |
 | links     | `Array`  | null      | `[{'id': 1, 'text': 'Link 1', 'url': 'https://github.com'}, {'id': 2, 'text': 'Link 2', 'url': 'https://github.com'}]` |
 
-#### Styles
-All menu styles can be updated in `/assets/sass/variables.scss`
+#### 样式
+所有样式都在 `/assets/sass/variables.scss`
