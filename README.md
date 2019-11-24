@@ -54,4 +54,4 @@ export default {
 | links     | `Array`  | null      | `[{'id': 1, 'text': 'Link 1', 'url': 'https://github.com'}, {'id': 2, 'text': 'Link 2', 'url': 'https://github.com'}]` |
 
 #### 样式
-所有样式都在 `/assets/sass/variables.scss`
+ `/assets/sass/variables.scss`
